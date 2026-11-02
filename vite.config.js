@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/acdemia-dev-web/',
+  base: '/academia-dev-web/',
 })
