@@ -10,7 +10,7 @@ import NoExiste from "./pagina/NoExiste";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/academia-dev-web">
           <Encabezado/>
           <Routes>
               <Route path="/"           element={<Inicio />} />
